@@ -1,12 +1,13 @@
 package two;
 
-public class SolidOfRevolution extends Shape {
+public abstract class SolidOfRevolution extends Shape {
 	
 	double radius=0;
 	
-	public SolidOfRevolution(double v)
+	public SolidOfRevolution(double radius)
 	{
-		 super(v);
+		super(radius);
+		this. radius = radius;
 	}
 	
 	public double getRadius()

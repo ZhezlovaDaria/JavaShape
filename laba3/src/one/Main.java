@@ -16,14 +16,11 @@ public class Main {
 		
 		ArrayList<Shape> Cont=new ArrayList<Shape>();
 		
-		Shape pyr=new Pyramid(3);
-		Shape sop=new SolidOfRevolution(4);
-		Cylinder cyl=new Cylinder(5);
-		Ball ball=new Ball(50);
+		Shape pyr=new Pyramid(3,4);
+		Shape cyl=new Cylinder(1,2);
+		Shape ball=new Ball(20);
 		if (box.add(pyr))
 			Cont.add(pyr);
-		if (box.add(sop))
-			Cont.add(sop);
 		if (box.add(cyl))
 			Cont.add(cyl);
 		if (box.add(ball))

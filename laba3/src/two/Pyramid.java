@@ -3,11 +3,13 @@ package two;
 public class Pyramid extends Shape {
 
 
-public Pyramid(double v)
+public Pyramid(double s, double h)
 	{
-		 super(v);
+		super(s*h/3);
+		this. h = h;
+		this. s = s;
 	}
 
-	double s;
-	double h;
+	double s=0;
+	double h=0;
 }
